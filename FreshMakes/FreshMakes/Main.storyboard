@@ -1,25 +1,118 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
-	<dependencies>
-		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204" />
-	</dependencies>
-	<scenes>
-		<!--View Controller-->
-		<scene sceneID="tne-QT-ifu">
-			<objects>
-				<viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-					<layoutGuides>
-						<viewControllerLayoutGuide type="top" id="y3c-jy-aDJ" />
-						<viewControllerLayoutGuide type="bottom" id="wfy-db-euE" />
-					</layoutGuides>
-					<view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-						<rect key="frame" x="0.0" y="0.0" width="600" height="600" />
-						<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
-						<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" />
-					</view>
-				</viewController>
-				<placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder" />
-			</objects>
-		</scene>
-	</scenes>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController" title="FreshMakes">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" clipsSubviews="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" textAlignment="center" id="132" translatesAutoresizingMaskIntoConstraints="NO" indicatorStyle="white">
+                                <rect key="frame" x="0.0" y="23" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.41960784313725491" green="0.792156862745098" blue="0.25098039215686274" alpha="1"/>
+                                    <color key="tintColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                    <mask key="constraints">
+                                        <include reference="154"/>
+                                        <include reference="155"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="154" firstAttribute="width" constant="414"/>
+                                    <constraint id="155" firstAttribute="height" constant="44"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="154"/>
+                                        <exclude reference="155"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FreshTweets" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" id="143" translatesAutoresizingMaskIntoConstraints="NO" adjustsLetterSpacingToFitWidth="NO">
+                                <rect key="frame" x="94" y="23" width="227" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18" weight="heavy"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <color key="tintColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                    <mask key="constraints">
+                                        <include reference="147"/>
+                                        <include reference="148"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="147" firstAttribute="width" constant="227"/>
+                                    <constraint id="148" firstAttribute="height" constant="44"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="147"/>
+                                        <exclude reference="148"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" image="YES" selected="YES"/>
+                        </accessibility>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="132"/>
+                                <exclude reference="143"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="145"/>
+                                <exclude reference="146"/>
+                                <exclude reference="156"/>
+                                <exclude reference="157"/>
+                                <exclude reference="158"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="132"/>
+                                <include reference="143"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="145"/>
+                                <include reference="146"/>
+                                <include reference="156"/>
+                                <include reference="157"/>
+                                <include reference="158"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="145" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="143" secondAttribute="trailing" constant="93"/>
+                            <constraint id="146" firstItem="143" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20"/>
+                            <constraint id="156" firstItem="132" firstAttribute="centerX" secondItem="143" secondAttribute="centerX"/>
+                            <constraint id="157" firstItem="132" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
+                            <constraint id="158" firstItem="132" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="23"/>
+                        </constraints>
+                    </view>
+                    <connections/>
+                    <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina55"/>
+    </simulatedMetricsContainer>
 </document>

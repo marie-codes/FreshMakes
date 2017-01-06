@@ -7,11 +7,12 @@
 using Foundation;
 using System;
 using System.CodeDom.Compiler;
+using UIKit;
 
 namespace FreshMakes
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("TableSource")]
+    partial class TableSource
     {
         void ReleaseDesignerOutlets ()
         {

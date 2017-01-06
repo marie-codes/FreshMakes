@@ -43,7 +43,7 @@ namespace FreshMakes
 			_table = new UITableView
 
 			{
-				Frame = new CoreGraphics.CGRect(0, 65, View.Bounds.Width, View.Bounds.Height - 65),
+				Frame = new CoreGraphics.CGRect(0, 65, View.Bounds.Width, View.Bounds.Height - 85),
 				Source = new TableSource(myCollection)
 			};
 
