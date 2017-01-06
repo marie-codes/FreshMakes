@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{60EDAB3C-6B0B-4729-983B-C4F7CA6111C6}|Default">
+  <MonoDevelop.Ide.ItemProperties.FreshMakes PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1860E22F-9AEA-4E31-83D7-08E6DCD2FA21" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreshMakes/TableSource.cs">
+    <Files>
+      <File FileName="FreshMakes/AppDelegate.cs" Line="19" Column="27" />
+      <File FileName="FreshMakes/TableSource.cs" Line="12" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
