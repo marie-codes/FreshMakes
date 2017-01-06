@@ -77,11 +77,8 @@ namespace FreshMakes
 			cell.TextLabel.Text = tableItems[indexPath.Row].Item1;
 			cell.TextLabel.Add(headingLabel);
 			cell.DetailTextLabel.Add(subheadingLabel);
-			//cell.TextLabel.Text = tableItems[indexPath.Row].Item2;
-			//cell.ImageView.Image = UIImage.FromFile()
 
-			//string url = tableItems[indexPath.Row].Item2;
-			//string url = "http://pbs.twimg.com/media/C1civc6W8AA2gjq.jpg";
+			//load images in tableView
 			//if (url != null)
 			//{
 			//	System.Console.WriteLine("URL:::" + url);
@@ -90,28 +87,15 @@ namespace FreshMakes
 			//	{
 			//		System.Console.WriteLine("found image");
 			//		UIImageView imageview = new UIImageView(new CGRect(40, 40, 40, 40)),
-				
 
 					//imageview.Image = image;
-
 					//cell.AddSubview(imageview);
 				//}
 			//	else {
 			//		Console.WriteLine("NO Image");
 			//	}
-
 			//}
-
 			return cell;
 		}
 	}
 }
-
-//tableItems.Add (new TableItem("Vegetables") { SubHeading = "65 items", ImageName = "Vegetables.jpg"});
-//			tableItems.Add (new TableItem("Fruits") { SubHeading = "17 items", ImageName = "Fruits.jpg"});
-//			tableItems.Add (new TableItem("Flower Buds") { SubHeading = "5 items", ImageName = "Flower Buds.jpg"});
-//			tableItems.Add (new TableItem("Legumes") { SubHeading = "33 items", ImageName = "Legumes.jpg"});
-//			tableItems.Add (new TableItem("Bulbs") { SubHeading = "18 items", ImageName = "Bulbs.jpg"});
-//			tableItems.Add (new TableItem("Tubers") { SubHeading = "43 items", ImageName = "Tubers.jpg"});
-//			table.Source = new TableSource(tableItems, this);
-//			Add(table);

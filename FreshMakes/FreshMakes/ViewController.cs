@@ -7,14 +7,11 @@ namespace FreshMakes
 {
 	public partial class ViewController : UIViewController
 	{
-		protected ViewController(IntPtr handle) : base(handle)
-		{
-		}
+		protected ViewController(IntPtr handle) : base(handle) { }
 
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
-			// Perform any additional setup after loading the view, typically from a nib.
 			Auth.SetUserCredentials("mJTwVjbfg4GUs0S3j1RN7GUMa", "KcDFpnQ6JbYyayUxNX8RURr4gVW4OdGto5i9dw8Fje9frQDpzM", "364491875-zyI5q3bO8fcauBf7GwpdOvtCKtapzYHYCkFJPyRJ", "yKvUzVyGZgoxCfrgIwA4fjIrmrJ1EX5oCQR04VhUxRrxE");
 			var tweets = Tweetinvi.Search.SearchTweets("from:FreshDirect");
 			List<Tuple<string, string>> myCollection = new List<Tuple<string, string>>();
@@ -41,19 +38,12 @@ namespace FreshMakes
 
 			UITableView _table;
 			_table = new UITableView
-
 			{
 				Frame = new CoreGraphics.CGRect(0, 65, View.Bounds.Width, View.Bounds.Height - 85),
 				Source = new TableSource(myCollection)
 			};
 
 			View.AddSubview(_table);
-		}
-
-		public override void DidReceiveMemoryWarning()
-		{
-			base.DidReceiveMemoryWarning();
-			// Release any cached data, images, etc that aren't in use.
 		}
 	}
 }
