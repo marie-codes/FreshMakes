@@ -13,19 +13,36 @@ namespace FreshMakes
 		List<Tuple<string, string>> tableItems = new List<Tuple<string, string>>();
 
 		string cellIdentifier = "TableCell";
-		//UILabel headingLabel, subheadingLabel;
 
+		public UILabel headingLabel { get; private set; }
+		public UILabel subheadingLabel { get; private set; }
 		public TableSource(List<Tuple<string, string>> items)
 		{
 			tableItems = items;
 
-			//headingLabel = new UILabel() {
-			//	Font = UIFont.FromName("Cochin-BoldItalic", 22f),
-			//	TextColor = UIColor.FromRGB(127, 51, 0),
-			//	BackgroundColor = UIColor.Clear
-			//};
+			headingLabel = new UILabel() 
+			{
+				Font = UIFont.FromName("Cochin-BoldItalic", 22f),
+				TextColor = UIColor.FromRGB(127, 51, 0),
+				BackgroundColor = UIColor.Clear
+			};
 
+			subheadingLabel = new UILabel()
+			{
+				Font = UIFont.FromName("AmericanTypewriter", 12f),
+				TextColor = UIColor.FromRGB(38, 127, 0),
+				TextAlignment = UITextAlignment.Center,
+				BackgroundColor = UIColor.Clear
+			};
 		}
+
+		public void UpdateCell(string caption, string subtitle, UIImage image)
+		{
+			//imageView.Image = image;
+			headingLabel.Text = caption;
+			subheadingLabel.Text = subtitle;
+		}
+
 
 		public override nint RowsInSection(UITableView tableview, nint section)
 		{
@@ -48,7 +65,6 @@ namespace FreshMakes
 				return null;
 			}
 			return UIImage.LoadFromData(data);
-
 		}
 
 		public override UITableViewCell GetCell(UITableView tableView, Foundation.NSIndexPath indexPath)
@@ -59,27 +75,32 @@ namespace FreshMakes
 				cell = new UITableViewCell(UITableViewCellStyle.Subtitle, cellIdentifier);
 
 			cell.TextLabel.Text = tableItems[indexPath.Row].Item1;
+			cell.TextLabel.Add(headingLabel);
+			cell.DetailTextLabel.Add(subheadingLabel);
 			//cell.TextLabel.Text = tableItems[indexPath.Row].Item2;
 			//cell.ImageView.Image = UIImage.FromFile()
 
-			string url = tableItems[indexPath.Row].Item2;
+			//string url = tableItems[indexPath.Row].Item2;
 			//string url = "http://pbs.twimg.com/media/C1civc6W8AA2gjq.jpg";
-			if (url != null)
-			{
-				System.Console.WriteLine("URL:::" + url);
-				UIImage image = fromUrl(url);
-				if (image != null)
-				{
-					System.Console.WriteLine("found image");
-					UIImageView imageview = new UIImageView(new CGRect(25, 25, 25, 25));
-					imageview.Image = image;
-					cell.AddSubview(imageview);
-				}
-				else {
-					Console.WriteLine("NO Image");
-				}
+			//if (url != null)
+			//{
+			//	System.Console.WriteLine("URL:::" + url);
+			//	UIImage image = fromUrl(url);
+			//	if (image != null)
+			//	{
+			//		System.Console.WriteLine("found image");
+			//		UIImageView imageview = new UIImageView(new CGRect(40, 40, 40, 40)),
+				
 
-			}
+					//imageview.Image = image;
+
+					//cell.AddSubview(imageview);
+				//}
+			//	else {
+			//		Console.WriteLine("NO Image");
+			//	}
+
+			//}
 
 			return cell;
 		}
