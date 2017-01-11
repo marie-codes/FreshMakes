@@ -43,6 +43,7 @@ namespace FreshMakes
 				Source = new TableSource(myCollection)
 			};
 
+			_table.ReloadData();
 			View.AddSubview(_table);
 		}
 	}

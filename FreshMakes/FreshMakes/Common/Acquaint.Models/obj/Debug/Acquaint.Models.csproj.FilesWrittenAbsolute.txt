@@ -1,0 +1,15 @@
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/Acquaint.Models.dll.config
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/Acquaint.Models.dll.mdb
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/Acquaint.Models.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/obj/Debug/Acquaint.Models.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/obj/Debug/Acquaint.Models.dll.mdb
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/Microsoft.WindowsAzure.Mobile.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/MvvmHelpers.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/Newtonsoft.Json.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/System.Net.Http.Extensions.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/System.Net.Http.Primitives.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/Acquaint.ModelContracts.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/Acquaint.ModelContracts.dll.mdb
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/Acquaint.Abstractions.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Models/bin/Debug/Acquaint.Abstractions.dll.mdb

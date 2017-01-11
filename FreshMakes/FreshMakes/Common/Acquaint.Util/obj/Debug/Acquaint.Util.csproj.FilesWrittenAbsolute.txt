@@ -1,0 +1,8 @@
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Util/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Util/bin/Debug/Acquaint.Util.dll.mdb
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Util/bin/Debug/Acquaint.Util.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Util/obj/Debug/Acquaint.Util.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Util/obj/Debug/Acquaint.Util.dll.mdb
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Util/bin/Debug/crypto.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Util/bin/Debug/Plugin.Settings.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Util/bin/Debug/Plugin.Settings.Abstractions.dll

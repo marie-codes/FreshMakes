@@ -1,0 +1,8 @@
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Common.iOS/obj/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Common.iOS/obj/Debug/optimized/
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Common.iOS/bin/Debug/Acquaint.Common.iOS.dll.mdb
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Common.iOS/bin/Debug/Acquaint.Common.iOS.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Common.iOS/obj/Debug/Acquaint.Common.iOS.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Common.iOS/obj/Debug/Acquaint.Common.iOS.dll.mdb
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Common.iOS/bin/Debug/Acquaint.Abstractions.dll
+/Users/MariePark/Desktop/app-acquaint-master/App/Common/Acquaint.Common.iOS/bin/Debug/Acquaint.Abstractions.dll.mdb

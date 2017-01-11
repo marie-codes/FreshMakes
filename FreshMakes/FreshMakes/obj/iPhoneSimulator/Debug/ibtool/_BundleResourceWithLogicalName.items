@@ -25,5 +25,9 @@
       <LogicalName>Main.storyboardc/UIViewController-BYZ-38-t0r.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/MyTableViewCell.nib">
+      <LogicalName>MyTableViewCell.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
   </ItemGroup>
 </Project>

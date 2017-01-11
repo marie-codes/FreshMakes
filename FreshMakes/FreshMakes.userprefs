@@ -2,8 +2,21 @@
   <MonoDevelop.Ide.ItemProperties.FreshMakes PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1860E22F-9AEA-4E31-83D7-08E6DCD2FA21" />
   <MonoDevelop.Ide.Workbench ActiveDocument="FreshMakes/ViewController.cs">
     <Files>
-      <File FileName="FreshMakes/ViewController.cs" Line="11" Column="4" />
+      <File FileName="FreshMakes/TableSource.cs" Line="75" Column="3" />
+      <File FileName="FreshMakes/MyTableViewCell.cs" Line="12" Column="48" />
+      <File FileName="FreshMakes/ViewController.cs" Line="28" Column="23" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FreshMakes" expanded="True">
+            <Node name="FreshMakes" expanded="True">
+              <Node name="ViewController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
